@@ -1,6 +1,6 @@
 # ESP32+ PROJECT
 
-### Features:
+### Features
 - Two Pushbutton with pull up resistor.
 - Four 5V LED 5mm.
 - 5V Buzzer DC
@@ -11,8 +11,8 @@
 ### Schematic
 Available link: [esp32_plus.pdf](https://github.com/user-attachments/files/19267839/esp32_plus.pdf)
 
-### Board:
+### Board
 
-### 3D Model:
+### 3D Model
 
-### Drawing:
+### Drawing
