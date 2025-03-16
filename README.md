@@ -16,6 +16,3 @@
 <p><img src="https://raw.githubusercontent.com/luigiifan/esp32plus/master/ESP32_PLUS.gif" width="350")</p>
   
 [Download PDF](https://github.com/user-attachments/files/19269748/ESP32_PLUS_DRAWING.pdf)
-
-### IV. Board
-(Not Available yet.)
