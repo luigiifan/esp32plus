@@ -5,7 +5,7 @@
 - Pushbutton with Pull-up Resistor
 - Controllable 3mm LED & Active DC Buzzer
 - Additional OLED Display 128x32
-- Power Expander 5V and 3.3V
+- Power Expander 5V and 3.3V (Output only)
 - Stepdown Regulator at 4.5-28V & Boot Mode Capacitor Fixes
 
 ### II. Schematic
