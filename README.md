@@ -10,10 +10,10 @@
 - External Power & Boot Mode Fixed
   
 ### II. Schematic
-[PDF Download](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
-![esp32_plus_sch](https://github.com/user-attachments/assets/5b635584-ded6-4599-bb6b-10b5e910d241)
+[Download PDF](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
 
 ### III. 3D Model & Drawing
+![ESP32_PLUS_3d](https://github.com/user-attachments/assets/89381e11-ccf8-4f53-bc65-c46276feaf1c)
 
 ### IV. Board
 (Not Available yet.)
