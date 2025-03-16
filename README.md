@@ -3,7 +3,7 @@
 ### Features
 - Compatible with ESP32 Devkit-V4
 - Two Pushbutton with pull up resistor.
-- Four 5V LED 5mm.
+- Four 5V LED 3mm.
 - 5V Buzzer DC
 - Additional OLED Display 128x32
 - Power Expander 5V and 3.3V
