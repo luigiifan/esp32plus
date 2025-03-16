@@ -1,6 +1,6 @@
 # ESP32+ PROJECT
 
-### Features
+### I. Features
 - Compatible with ESP32 Devkit-V4
 - Two Pushbutton with pull up resistor.
 - Four 5V LED 3mm.
@@ -9,10 +9,11 @@
 - Power Expander 5V and 3.3V
 - External Power & Boot Mode Fixed
   
-### Schematic
-Click here: [ESP32+ Schematic PDF](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
+### II. Schematic
+[PDF Download](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
+![esp32_plus_sch](https://github.com/user-attachments/assets/5b635584-ded6-4599-bb6b-10b5e910d241)
 
-### 3D Model & Drawing
+### III. 3D Model & Drawing
 
-### Board
+### IV. Board
 (Not Available yet.)
