@@ -10,7 +10,7 @@
 - External Power & Boot Mode Fixed
   
 ### Schematic
-Click here: [ESP32+ Schematic Eagle](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
+Click here: [ESP32+ Schematic PDF](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
 
 ### Board
 
