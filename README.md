@@ -6,7 +6,7 @@
 - Controllable 3mm LED & Active DC Buzzer
 - Additional OLED Display 128x32
 - Power Expander 5V and 3.3V (Output only)
-- Stepdown Regulator at 4.5-28V & Boot Mode Capacitor Fixes
+- Stepdown Buck Converter at 4.5-28V & Boot Mode Capacitor Fixes
 
 ### II. Schematic
 [Download PDF](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
