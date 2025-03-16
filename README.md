@@ -1,7 +1,7 @@
 # ESP32+ PROJECT
 
 ### I. Features
-- Compatible with ESP32 Devkit-V4
+- Only Compatible with ESP32 Devkit-V4
 - Two Pushbutton with pull up resistor
 - Four 3mm LED
 - 5V Buzzer DC
