@@ -1,7 +1,7 @@
 # ESP32+ PROJECT
 
 ### I. Features
-- Only Compatible with ESP32 Devkit V4
+- Compatible with ESP32 Devkit V4
 - Pushbutton with Pull-up Resistor
 - Controllable 3mm LED & Active DC Buzzer
 - Additional OLED Display 128x32
