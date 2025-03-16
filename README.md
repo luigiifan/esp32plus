@@ -13,9 +13,8 @@
 [Download PDF](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
 
 ### III. 3D Model & Drawing
-<p align="center">
+[Download PDF](https://github.com/user-attachments/files/19269716/ESP32_PLUS_DRAWING.pdf)
 <img src="https://raw.githubusercontent.com/luigiifan/esp32plus/master/ESP32_PLUS.gif" width="350")
-</p>
 
 ### IV. Board
 (Not Available yet.)
