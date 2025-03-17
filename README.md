@@ -1,4 +1,4 @@
-# ESP32+ PROJECT
+# ESP32+ PROJECT INTRODUCTION
 
 ### I. Features
 🔧 Fixes incorrect Boot mode selection<br>
