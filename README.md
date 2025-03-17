@@ -11,13 +11,15 @@
 | :------: | :-----: | :------: | :-----: | ----- |
 | S1 | Pushbutton | GPIO 34 |  | Parallel with pull-up 10K Resistor to 3.3V |
 | S2 | Pushbutton | GPIO 35 |  | Parallel with pull-up 10K Resistor to 3.3V |
-| L1 | 3mm LED | GPIO 17 | ✅ | Additional 330 ohm Resistor for current limiter, Toggle Switch IV to enable |
-| L2 | 3mm LED | GPIO 16 | ✅ | Additional 330 ohm Resistor for current limiter |
-| L3 | 3mm LED | GPIO 4 | ✅ | Additional 330 ohm Resistor for current limiter |
-| L4 | 3mm LED | GPIO 2 | ✅ | Additional 330 ohm Resistor for current limiter |
-| SG1 | Buzzer DC | GPIO 32 | ✅ | Place jumper on pins 1-2 to enable |
-| DISP | OLED 128x32 | SDA (GPIO 21) <br> SCL (GPIO 22) | ✅ | Place D jumper on pins 1-2 to enable |
+| L1 | 3mm LED | GPIO 17 | ✅ | Series 330 ohm Resistor for current limiter, Toggle switch (IV) to enable |
+| L2 | 3mm LED | GPIO 16 | ✅ | Series 330 ohm Resistor for current limiter, Toggle switch (III) to enable |
+| L3 | 3mm LED | GPIO 4 | ✅ | Series 330 ohm Resistor for current limiter, Toggle switch (II) to enable |
+| L4 | 3mm LED | GPIO 2 | ✅ | Series 330 ohm Resistor for current limiter, Toggle switch (I) to enable |
+| SG1 | Buzzer DC | GPIO 32 | ✅ | Place (B) jumper on pins 1-2 to enable |
+| DISP | OLED 128x32 | SDA (GPIO 21) <br> SCL (GPIO 22) | ✅ | Place (D) jumper on pins 1-2 to enable |
 | C1 | Polar Capacitor | EN | | Determine ESP32 to FLASH mode upon power-up |
+> [!WARNING]
+> The voltage output from the <ins>Stepdown Buck Converter</ins> must be in the __3.3V-5V__ range to supply power correctly and avoid damaging the board.
 
 ### III. Schematic
 [Download PDF](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
