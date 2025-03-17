@@ -32,4 +32,4 @@
   
 🔗 [Download PDF](https://github.com/user-attachments/files/19269748/ESP32_PLUS_DRAWING.pdf)
 
-***All included files can be used for free and configured freely according to your preference. If you need a technical support, contact me via email: luigiifan@student.ppns.ac.id***
+***All included files can be used for free and configured freely according to your preference. If you need a technical support, contact me via email!***
