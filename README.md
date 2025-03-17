@@ -4,7 +4,7 @@
 - Compatible with ESP32 Devkit V4
 - Power Expander 5V and 3.3V (Output only)
 - Stepdown Buck Converter at 4.5-28V
-- Fixes Booting Mode with Capacitor
+- Fixes Booting mode while uploading code
 
 ### II. Technical Description
 | Label  | Component  | Pin    | Switchable | Description |
@@ -17,7 +17,7 @@
 | L4 | 3mm LED | GPIO 2 | ✅ | Additional 330 ohm Resistor for current limiter |
 | SG1 | Buzzer DC | GPIO 32 | ✅ | Place jumper on pins 1-2 to enable |
 | DISP | OLED 128x32 | SDA (GPIO 21) <br> SCL (GPIO 22) | ✅ | Place D jumper on pins 1-2 to enable |
-| C1 | Polar Capacitor | EN | | For Booting Mode |
+| C1 | Polar Capacitor | EN | | Determine ESP32 to FLASH mode upon power-up |
 
 ### III. Schematic
 [Download PDF](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
