@@ -1,13 +1,13 @@
 # ESP32+ PROJECT
 
 ### I. Features
-🔓 Compatible with <ins>ESP32 DevKit V4</ins> only <br>
+🔓 Compatible with <ins>ESP32 DevKit V4</ins> only<br>
 ⚡ Includes two additional Power Expanders<br>
-🔌 Stepdown Buck Converter supports 4.5V-28V<br>
-🔧 Fixes incorrect Boot mode selection <br>
+🔌 Stepdown Buck Converter MP1584 supports<br>
+🔧 Fixes incorrect Boot mode selection<br>
 
 ### II. Technical Description
-| Label  | Component  | Pin    | Switchable | Description |
+| Label  | Component  | I/O    | Switchable | Description |
 | :------: | :-----: | :------: | :-----: | ----- |
 | S1 | Pushbutton | GPIO 34 |  | Parallel with pull-up 10K Resistor to 3.3V |
 | S2 | Pushbutton | GPIO 35 |  | Parallel with pull-up 10K Resistor to 3.3V |
@@ -16,14 +16,14 @@
 | L3 | 3mm LED | GPIO 4 | ✅ | Series 330 ohm Resistor for current limiter, Toggle switch (II) to enable |
 | L4 | 3mm LED | GPIO 2 | ✅ | Series 330 ohm Resistor for current limiter, Toggle switch (I) to enable |
 | SG1 | Buzzer DC | GPIO 32 | ✅ | Place (B) jumper on pins 1-2 to enable |
-| DISP | OLED 128x32 | SDA (GPIO 21) <br> SCL (GPIO 22) | ✅ | Place (D) jumper on pins 1-2 to enable |
+| DISP | OLED 128x32 | GPIO 21 (SDA) <br> GPIO 22 (SCL) | ✅ | Place (D) jumper on pins 1-2 to enable |
 | C1 | Polar Capacitor | EN | | Determine ESP32 to FLASH mode upon power-up |
 
 > [!WARNING]
-> - The voltage output from the <ins>Stepdown Buck Converter</ins> must be configure in the __3.3V-5V__ range to supply power correctly and avoid damaging the board.
+> - The voltage output from the <ins>Stepdown Buck Converter MP1584</ins> must be configure in the __3.3V-5V__ range to supply power correctly and avoid damaging the board.
 > - The Power Expander is only used for output and cannot be used for input (or it will exploded).
 > - Use the recommended resistor value ranging from __330 to 1K__ ohms for a 3mm LED current limiter, or calculate it to perfectly match the specifications.
-> - All included files can be used for free and configured freely according to user preference.
+> - All included files can be used for free and configured freely according to your preference.
 
 ### III. Schematic 
 🔗 [Download PDF](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
