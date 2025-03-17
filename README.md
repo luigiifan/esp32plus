@@ -2,7 +2,7 @@
 
 ### I. Features
 🔓 Compatible with _ESP32 DevKit V4_ only<br>
-⚡ Includes two additional Power Expanders<br>
+⚡ Includes 3.3V and 5V additional Power Expanders<br>
 🔌 Stepdown Buck Converter _MP1584_ supports<br>
 🔧 Fixes incorrect Boot mode selection<br>
 
@@ -21,7 +21,7 @@
 
 > [!WARNING]
 > - The voltage output from the <ins>Stepdown Buck Converter MP1584</ins> must be configure in the __3.3V-5V__ range to supply power correctly and avoid damaging the board.
-> - The Power Expander is only used for output and cannot be used for input (or it will exploded).
+> - The Power Expander is only used for output and cannot be used for input.
 > - Use the recommended resistor value ranging from __330 to 1K__ ohms for a 3mm LED current limiter, or calculate it to perfectly match the specifications.
 
 ### III. Schematic 
