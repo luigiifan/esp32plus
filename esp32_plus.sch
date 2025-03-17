@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17087,83 +17087,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="jumper" urn="urn:adsk.eagle:library:252">
-<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="JP1" urn="urn:adsk.eagle:footprint:15398/1" library_version="2">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
-<pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
-<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
-<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="JP1" urn="urn:adsk.eagle:package:15455/1" type="box" library_version="2">
-<description>JUMPER</description>
-<packageinstances>
-<packageinstance name="JP1"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="JP2E" urn="urn:adsk.eagle:symbol:15391/1" library_version="2">
-<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="JP1E" urn="urn:adsk.eagle:component:15487/2" prefix="JP" uservalue="yes" library_version="2">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="JP2E" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="JP1">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15455/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="61" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="buzzer" urn="urn:adsk.eagle:library:113">
 <description>&lt;b&gt;Speakers and Buzzers&lt;/b&gt;&lt;p&gt;
 &lt;ul&gt;Distributors:
@@ -17273,9 +17196,6 @@ Source: www.kingbright.com</description>
 <text x="4.572" y="13.208" size="1.27" layer="21" rot="R90">IN-</text>
 <text x="18.796" y="0.508" size="1.27" layer="21" rot="R90">OUT+</text>
 <text x="18.796" y="12.192" size="1.27" layer="21" rot="R90">OUT-</text>
-<wire x1="7.62" y1="8.89" x2="13.97" y2="8.89" width="0.5" layer="21"/>
-<wire x1="13.97" y1="8.89" x2="12.7" y2="10.16" width="0.5" layer="21"/>
-<wire x1="13.97" y1="8.89" x2="12.7" y2="7.62" width="0.5" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -17557,6 +17477,95 @@ distributor Buerklin, 17G554</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper_edit">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="JP2" urn="urn:adsk.eagle:footprint:15390/1" locally_modified="yes">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-1.016" x2="-3.81" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="1.27" x2="1.524" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.524" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="-1.27" x2="1.524" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.016" x2="1.524" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="-1.27" x2="3.81" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="1.27" x2="3.81" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="1.016" x2="3.81" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="1.27" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="1.27" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="1.27" x2="-1.27" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="1.016" x2="-3.556" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="1.27" x2="-3.556" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-1.27" x2="1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.016" x2="-1.016" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.27" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-1.016" x2="-3.556" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-1.27" x2="-1.016" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.27" x2="-3.556" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="0.9144" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
+<text x="-3.556" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.556" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.8448" y1="-0.3048" x2="-2.2352" y2="0.3048" layer="51"/>
+<rectangle x1="-0.3048" y1="-0.3048" x2="0.3048" y2="0.3048" layer="51"/>
+<rectangle x1="2.2352" y1="-0.3048" x2="2.8448" y2="0.3048" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="JP2" urn="urn:adsk.eagle:package:15452/1" type="box">
+<description>JUMPER</description>
+<packageinstances>
+<packageinstance name="JP2"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="JP3E">
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="-3.175" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="-3.175" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="-3.175" y1="0.635" x2="-3.175" y2="0" width="0.4064" layer="94"/>
+<text x="-3.81" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JP2E" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="JP3E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JP2">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15452/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="34" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17568,33 +17577,35 @@ distributor Buerklin, 17G554</description>
 </classes>
 <parts>
 <part name="U1" library="ESP32-DEVKITC-32D" deviceset="ESP32-DEVKITC-32D" device="" value="ESP32 DEVKIT-V4"/>
-<part name="FE_JP2" library="pinhead_Edit" deviceset="PINHD-1X19" device="" package3d_urn="urn:adsk.eagle:package:22492/2"/>
-<part name="FE_JP1" library="pinhead_Edit" deviceset="PINHD-1X19" device="" package3d_urn="urn:adsk.eagle:package:22492/2"/>
+<part name="FE_JP2" library="pinhead_Edit" deviceset="PINHD-1X19" device="" package3d_urn="urn:adsk.eagle:package:22492/2" override_package3d_urn="urn:adsk.eagle:package:47410627/2" override_package_urn="urn:adsk.eagle:footprint:22390/1"/>
+<part name="FE_JP1" library="pinhead_Edit" deviceset="PINHD-1X19" device="" package3d_urn="urn:adsk.eagle:package:22492/2" override_package3d_urn="urn:adsk.eagle:package:47410614/2" override_package_urn="urn:adsk.eagle:footprint:22390/1"/>
 <part name="MA_JP3" library="pinhead_Edit" deviceset="PINHD-1X19" device="" package3d_urn="urn:adsk.eagle:package:22492/2"/>
 <part name="MA_JP4" library="pinhead_Edit" deviceset="PINHD-1X19" device="" package3d_urn="urn:adsk.eagle:package:22492/2"/>
 <part name="5V" library="pinhead_Edit" deviceset="PINHD-2X6" device="" package3d_urn="urn:adsk.eagle:package:22474/2"/>
 <part name="3.3V" library="pinhead_Edit" deviceset="PINHD-2X6" device="" package3d_urn="urn:adsk.eagle:package:22474/2"/>
 <part name="C1" library="rcl_Edit" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="10uF"/>
-<part name="U$1" library="diy-modules_new" deviceset="DISPLAY-OLED-128X32" device="" value="DISPLAY OLED 128X32"/>
-<part name="S1" library="Sparkfun-SwitchEdit" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1"/>
-<part name="S2" library="Sparkfun-SwitchEdit" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1"/>
-<part name="R1" library="rcl_Edit" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="R2" library="rcl_Edit" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="L1" library="led_Edit" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="L2" library="led_Edit" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="L3" library="led_Edit" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="L4" library="led_Edit" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="R3" library="rcl_Edit" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="R4" library="rcl_Edit" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="R5" library="rcl_Edit" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="R6" library="rcl_Edit" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="SG1" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:5265/1"/>
-<part name="B" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
-<part name="MP1584" library="MP1584" deviceset="MP1584" device=""/>
-<part name="X1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="D" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
+<part name="U$1" library="diy-modules_new" deviceset="DISPLAY-OLED-128X32" device="" override_package3d_urn="urn:adsk.eagle:package:47410705/2" override_package_urn="urn:adsk.eagle:footprint:47410706/1" value="DISPLAY OLED 128X32"/>
+<part name="S1" library="Sparkfun-SwitchEdit" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1" override_package3d_urn="urn:adsk.eagle:package:47410701/2" override_package_urn="urn:adsk.eagle:footprint:40103/1"/>
+<part name="S2" library="Sparkfun-SwitchEdit" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1" override_package3d_urn="urn:adsk.eagle:package:47410702/2" override_package_urn="urn:adsk.eagle:footprint:40103/1"/>
+<part name="R1" library="rcl_Edit" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2"/>
+<part name="R2" library="rcl_Edit" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2"/>
+<part name="L1" library="led_Edit" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" override_package3d_urn="urn:adsk.eagle:package:47410392/2" override_package_urn="urn:adsk.eagle:footprint:47410393/1">
+<attribute name="SPICEPREFIX" value="L"/>
+</part>
+<part name="L2" library="led_Edit" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" override_package3d_urn="urn:adsk.eagle:package:47410575/3" override_package_urn="urn:adsk.eagle:footprint:47410576/1"/>
+<part name="L3" library="led_Edit" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" override_package3d_urn="urn:adsk.eagle:package:47410579/3" override_package_urn="urn:adsk.eagle:footprint:47410584/1"/>
+<part name="L4" library="led_Edit" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" override_package3d_urn="urn:adsk.eagle:package:47410586/3" override_package_urn="urn:adsk.eagle:footprint:47410587/1"/>
+<part name="R3" library="rcl_Edit" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2"/>
+<part name="R4" library="rcl_Edit" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2"/>
+<part name="R5" library="rcl_Edit" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2"/>
+<part name="R6" library="rcl_Edit" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2"/>
+<part name="SG1" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:5265/1" override_package3d_urn="urn:adsk.eagle:package:47410708/2" override_package_urn="urn:adsk.eagle:footprint:5223/1"/>
+<part name="MP1584" library="MP1584" deviceset="MP1584" device="" override_package3d_urn="urn:adsk.eagle:package:47410710/2" override_package_urn="urn:adsk.eagle:footprint:47410711/1" override_locally_modified="yes"/>
+<part name="X1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" override_package3d_urn="urn:adsk.eagle:package:47410714/2" override_package_urn="urn:adsk.eagle:footprint:10676/1"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="S3" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DS04E" device="" package3d_urn="urn:adsk.eagle:package:27211/2"/>
+<part name="B" library="jumper_edit" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1" override_package3d_urn="urn:adsk.eagle:package:47410692/2" override_package_urn="urn:adsk.eagle:footprint:47410693/1"/>
+<part name="D" library="jumper_edit" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1" override_package3d_urn="urn:adsk.eagle:package:47410689/2" override_package_urn="urn:adsk.eagle:footprint:47410690/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -17730,10 +17741,6 @@ distributor Buerklin, 17G554</description>
 <instance part="SG1" gate="G$1" x="-11.43" y="24.13" smashed="yes">
 <attribute name="NAME" x="-13.97" y="30.48" size="1.778" layer="95"/>
 </instance>
-<instance part="B" gate="A" x="-19.05" y="24.13" smashed="yes">
-<attribute name="NAME" x="-20.828" y="27.432" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-13.335" y="24.13" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="MP1584" gate="G$1" x="-91.44" y="59.69" smashed="yes"/>
 <instance part="X1" gate="-1" x="-111.76" y="62.23" smashed="yes">
 <attribute name="NAME" x="-111.76" y="63.119" size="1.778" layer="95" rot="R180"/>
@@ -17741,10 +17748,6 @@ distributor Buerklin, 17G554</description>
 <instance part="X1" gate="-2" x="-111.76" y="57.15" smashed="yes">
 <attribute name="VALUE" x="-114.3" y="53.467" size="1.778" layer="96"/>
 <attribute name="NAME" x="-111.76" y="58.039" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="D" gate="A" x="-107.95" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="-113.792" y="17.526" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-113.665" y="20.32" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="-105.41" y="16.51" smashed="yes"/>
 <instance part="S3" gate="-1" x="69.85" y="16.51" smashed="yes" rot="R90">
@@ -17759,6 +17762,14 @@ distributor Buerklin, 17G554</description>
 <instance part="S3" gate="-4" x="69.85" y="31.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="34.29" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="73.66" y="36.83" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="B" gate="1" x="-19.05" y="25.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-22.86" y="26.67" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-24.765" y="25.4" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="D" gate="1" x="-111.76" y="19.05" smashed="yes" rot="R180">
+<attribute name="NAME" x="-116.84" y="16.51" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-117.475" y="19.05" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -18136,9 +18147,10 @@ distributor Buerklin, 17G554</description>
 <label x="86.36" y="63.5" size="1.778" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D" gate="A" pin="2"/>
-<wire x1="-110.49" y1="22.86" x2="-112.522" y2="22.86" width="0.1524" layer="91"/>
-<label x="-112.522" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="D" gate="1" pin="3"/>
+<wire x1="-114.3" y1="21.59" x2="-114.3" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="22.86" x2="-116.84" y2="22.86" width="0.1524" layer="91"/>
+<label x="-116.84" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -18251,9 +18263,10 @@ distributor Buerklin, 17G554</description>
 <pinref part="MA_JP4" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<pinref part="B" gate="A" pin="1"/>
-<wire x1="-19.05" y1="21.59" x2="-19.05" y2="19.05" width="0.1524" layer="91"/>
-<label x="-19.05" y="19.05" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="B" gate="1" pin="1"/>
+<wire x1="-16.51" y1="22.86" x2="-16.51" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-16.51" y1="20.32" x2="-21.59" y2="20.32" width="0.1524" layer="91"/>
+<label x="-21.59" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO33" class="0">
@@ -18666,13 +18679,6 @@ distributor Buerklin, 17G554</description>
 <wire x1="49.53" y1="16.51" x2="52.07" y2="16.51" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="B" gate="A" pin="2"/>
-<pinref part="SG1" gate="G$1" pin="1"/>
-<wire x1="-16.51" y1="21.59" x2="-13.97" y2="21.59" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="X1" gate="-1" pin="KL"/>
@@ -18685,13 +18691,6 @@ distributor Buerklin, 17G554</description>
 <pinref part="X1" gate="-2" pin="KL"/>
 <pinref part="MP1584" gate="G$1" pin="VIN-"/>
 <wire x1="-106.68" y1="57.15" x2="-102.87" y2="57.15" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
-<pinref part="D" gate="A" pin="1"/>
-<wire x1="-105.41" y1="22.86" x2="-107.95" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -18722,6 +18721,22 @@ distributor Buerklin, 17G554</description>
 <wire x1="62.23" y1="31.75" x2="64.77" y2="31.75" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="SG1" gate="G$1" pin="1"/>
+<wire x1="-13.97" y1="21.59" x2="-19.05" y2="21.59" width="0.1524" layer="91"/>
+<pinref part="B" gate="1" pin="2"/>
+<wire x1="-19.05" y1="21.59" x2="-19.05" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="D" gate="1" pin="2"/>
+<wire x1="-105.41" y1="22.86" x2="-111.76" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="22.86" x2="-111.76" y2="21.59" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -18746,6 +18761,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
