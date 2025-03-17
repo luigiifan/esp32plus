@@ -1,10 +1,10 @@
 # ESP32+ PROJECT
 
 ### I. Features
-- Compatible with ESP32 Devkit V4
-- Power Expander 5V and 3.3V (Output only)
-- Stepdown Buck Converter at 4.5-28V
-- Fixes Booting mode while uploading code
+🔓 Compatible with <ins>ESP32 DevKit V4</ins> only <br>
+⚡ Includes two additional Power Expanders<br>
+🔌 Stepdown Buck Converter supports 4.5V-28V<br>
+🔧 Fixes incorrect Boot mode selection <br>
 
 ### II. Technical Description
 | Label  | Component  | Pin    | Switchable | Description |
@@ -18,13 +18,17 @@
 | SG1 | Buzzer DC | GPIO 32 | ✅ | Place (B) jumper on pins 1-2 to enable |
 | DISP | OLED 128x32 | SDA (GPIO 21) <br> SCL (GPIO 22) | ✅ | Place (D) jumper on pins 1-2 to enable |
 | C1 | Polar Capacitor | EN | | Determine ESP32 to FLASH mode upon power-up |
-> [!WARNING]
-> The voltage output from the <ins>Stepdown Buck Converter</ins> must be in the __3.3V-5V__ range to supply power correctly and avoid damaging the board.
 
-### III. Schematic
-[Download PDF](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
+> [!WARNING]
+> - The voltage output from the <ins>Stepdown Buck Converter</ins> must be configure in the __3.3V-5V__ range to supply power correctly and avoid damaging the board.
+> - The Power Expander is only used for output and cannot be used for input (or it will exploded).
+> - Use the recommended resistor value ranging from __330 to 1K__ ohms for a 3mm LED current limiter, or calculate it to perfectly match the specifications.
+> - All included files can be used for free and configured freely according to user preference.
+
+### III. Schematic 
+🔗 [Download PDF](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
 
 ### IV. 3D Model & Drawing
 <p><img src="https://raw.githubusercontent.com/luigiifan/esp32plus/master/ESP32_PLUS.gif" width="350")</p>
   
-[Download PDF](https://github.com/user-attachments/files/19269748/ESP32_PLUS_DRAWING.pdf)
+🔗 [Download PDF](https://github.com/user-attachments/files/19269748/ESP32_PLUS_DRAWING.pdf)
