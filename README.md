@@ -2,9 +2,9 @@
 
 ### I. Features
 🔓 Compatible with _ESP32 DevKit V4_ only<br>
-⚡ Includes 3.3V and 5V additional Power Expanders<br>
-🔌 Stepdown Buck Converter _MP1584_ supports<br>
 🔧 Fixes incorrect Boot mode selection<br>
+🔌 Stepdown Buck Converter _MP1584_ supports<br>
+⚡ Includes 3.3V and 5V additional Power Expanders<br>
 
 ### II. Technical Description
 | Label  | Component  | I/O    | Switchable | Description |
