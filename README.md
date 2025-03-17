@@ -19,7 +19,7 @@
 | DISP | OLED 128x32 | GPIO 21 (SDA) <br> GPIO 22 (SCL) | ✅ | Place (D) jumper on pins 1-2 to enable |
 | C1 | Polar Capacitor | EN | | Determine ESP32 to FLASH mode upon power-up |
 
-> [!WARNING]
+> [!NOTE]
 > - The voltage output from the <ins>Stepdown Buck Converter MP1584</ins> must be configure in the __3.3V-5V__ range to supply power correctly and avoid damaging the board.
 > - The Power Expander is only used for output and cannot be used for input (or it will exploded).
 > - Use the recommended resistor value ranging from __330 to 1K__ ohms for a 3mm LED current limiter, or calculate it to perfectly match the specifications.
