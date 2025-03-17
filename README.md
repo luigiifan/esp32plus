@@ -1,7 +1,7 @@
 # ESP32+ PROJECT
 
 ### I. Features
-🔓 Compatible with <ins>ESP32 DevKit V4</ins> only<br>
+🔓 Compatible with _ESP32 DevKit V4_ only<br>
 ⚡ Includes two additional Power Expanders<br>
 🔌 Stepdown Buck Converter MP1584 supports<br>
 🔧 Fixes incorrect Boot mode selection<br>
