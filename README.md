@@ -24,8 +24,6 @@
 > - The Power Expander is only used for output and cannot be used for input (or it will exploded).
 > - Use the recommended resistor value ranging from __330 to 1K__ ohms for a 3mm LED current limiter, or calculate it to perfectly match the specifications.
 
-***All included files can be used for free and configured freely according to your preference. If you need a technical support, contact me via email: luigiifan@student.ppns.ac.id***
-
 ### III. Schematic 
 🔗 [Download PDF](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
 
@@ -33,3 +31,5 @@
 <p><img src="https://raw.githubusercontent.com/luigiifan/esp32plus/master/ESP32_PLUS.gif" width="350")</p>
   
 🔗 [Download PDF](https://github.com/user-attachments/files/19269748/ESP32_PLUS_DRAWING.pdf)
+
+***All included files can be used for free and configured freely according to your preference. If you need a technical support, contact me via email: luigiifan@student.ppns.ac.id***
