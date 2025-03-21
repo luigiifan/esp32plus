@@ -2,7 +2,7 @@
 
 ### I. Features
 🔧 Fixes incorrect Boot Mode selection<br>
-🔓 Compatible with ESP32 DevKit-V4 only<br>
+🔓 Compatible with <ins>ESP32 DevKit-V4 only</ins><br>
 🔌 Stepdown Buck Converter MP1584 supports<br>
 ⚡ Includes 3.3V and 5V additional Power Expander<br>
 
