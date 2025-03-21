@@ -1,7 +1,7 @@
 # ESP32+ PROJECT
 
 ### I. Features
-🔧 Fixes incorrect Boot mode selection<br>
+🔧 Fixes incorrect Boot Mode selection<br>
 🔓 Compatible with _ESP32 DevKit V4_ only<br>
 🔌 Stepdown Buck Converter _MP1584_ supports<br>
 ⚡ Includes 3.3V and 5V additional Power Expanders<br>
