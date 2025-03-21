@@ -22,7 +22,7 @@
 > [!WARNING]
 > - The voltage output from the <ins>Stepdown Buck Converter MP1584</ins> must be configure in the __3.3V-5V__ range to supply power correctly and avoid damaging the board.
 > - The Power Expander is only used for output and cannot be used for input.
-> - Use the recommended resistor value ranging from __330 to 1K__ ohms for a 3mm LED current limiter, or calculate it to perfectly match the specifications.
+> - Use the recommended resistor value ranging from __330 to 1K__ ohms for a 3mm LED current limiter.
 
 ### III. Schematic 
 🔗 [Download PDF](https://github.com/user-attachments/files/19268394/esp32_plus.pdf)
